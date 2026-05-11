@@ -1,10 +1,10 @@
+import os
 from fastapi import FastAPI, Depends, HTTPException, UploadFile, File, Query
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import pandas as pd
 
 from fastapi.middleware.cors import CORSMiddleware
-import os
 
 
 app = FastAPI(title="Personnel Costs Analytics API")
